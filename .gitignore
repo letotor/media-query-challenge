@@ -1,2 +1,9 @@
 node_modules/
 yarn.lock
+.parcel-cache/
+dist/
+# Local Netlify folder
+.netlify
+netlify.toml
+
+index.js

@@ -7,8 +7,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel index.html style.css",
     "deploy": "netlify deploy",
+    "clean": "rm -Rf dist/",
     "deployProd": "netlify deploy --prod"
   },
   "devDependencies": {
