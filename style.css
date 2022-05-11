@@ -8,7 +8,9 @@
     margin:0;
     padding:0;
 }
-
+a{
+    text-decoration: none;
+}
 body {
     margin: 1rem;
     min-height: 100vh;
