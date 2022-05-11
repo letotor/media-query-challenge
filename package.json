@@ -1,0 +1,17 @@
+{
+  "name": "media-queries-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/letotor/media-query-challenge.git",
+  "author": "victor DG <v.degermain@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "parcel index.html",
+    "deploy": "netlify deploy",
+    "deployProd": "netlify deploy --prod"
+  },
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
+}
