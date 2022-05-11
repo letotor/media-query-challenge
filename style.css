@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button .text {
+    display: none;
+}
